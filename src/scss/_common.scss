@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
     box-sizing: border-box;
     position: relative;
     outline: none;
@@ -8,4 +9,25 @@
 
 html {
     overflow-x: hidden;
+}
+body {
+    font-size: 10px;
+}
+.container {
+    width: 100%;
+    max-width: 1780px;
+    margin: 0 auto;
+    // background: red;
+}
+a {
+    color: $text;
+    transition: all 0.25s linear;
+    text-decoration: none;
+
+    &:hover {
+        color: $mainAccent;
+    }
+    &:active {
+        color: $mainAccent;
+    }
 }
