@@ -1,53 +1,60 @@
-/*
 @font-face {
-    font-family: 'Rubik';
-    src: url('/css/fonts/Rubik/Rubik-Medium.eot');
-    src: url('/css/fonts/Rubik/Rubik-Medium.eot?#iefix') format('embedded-opentype'),
-        url('/css/fonts/Rubik/Rubik-Medium.woff2') format('woff2'),
-        url('/css/fonts/Rubik/Rubik-Medium.woff') format('woff'),
-        url('/css/fonts/Rubik/Rubik-Medium.ttf') format('truetype'),
-        url('/css/fonts/Rubik/Rubik-Medium.svg#Rubik-Medium') format('svg');
+    font-family: 'Open Sans';
+    src: url('/css/fonts/subset-OpenSans-SemiBold.eot');
+    src: url('/css/fonts/subset-OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/css/fonts/subset-OpenSans-SemiBold.woff2') format('woff2'),
+        url('/css/fonts/subset-OpenSans-SemiBold.woff') format('woff'),
+        url('/css/fonts/subset-OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/css/fonts/subset-OpenSans-Bold.eot');
+    src: url('/css/fonts/subset-OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/css/fonts/subset-OpenSans-Bold.woff2') format('woff2'),
+        url('/css/fonts/subset-OpenSans-Bold.woff') format('woff'),
+        url('/css/fonts/subset-OpenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/css/fonts/subset-OpenSans-Regular.eot');
+    src: url('/css/fonts/subset-OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/css/fonts/subset-OpenSans-Regular.woff2') format('woff2'),
+        url('/css/fonts/subset-OpenSans-Regular.woff') format('woff'),
+        url('/css/fonts/subset-OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/css/fonts/subset-OpenSans-Medium.eot');
+    src: url('/css/fonts/subset-OpenSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/css/fonts/subset-OpenSans-Medium.woff2') format('woff2'),
+        url('/css/fonts/subset-OpenSans-Medium.woff') format('woff'),
+        url('/css/fonts/subset-OpenSans-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Rubik';
-    src: url('/css/fonts/Rubik/Rubik-Light.eot');
-    src: url('/css/fonts/Rubik/Rubik-Light.eot?#iefix') format('embedded-opentype'),
-        url('/css/fonts/Rubik/Rubik-Light.woff2') format('woff2'),
-        url('/css/fonts/Rubik/Rubik-Light.woff') format('woff'),
-        url('/css/fonts/Rubik/Rubik-Light.ttf') format('truetype'),
-        url('/css/fonts/Rubik/Rubik-Light.svg#Rubik-Light') format('svg');
+    font-family: 'Open Sans';
+    src: url('/css/fonts/subset-OpenSans-Light.eot');
+    src: url('/css/fonts/subset-OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('/css/fonts/subset-OpenSans-Light.woff2') format('woff2'),
+        url('/css/fonts/subset-OpenSans-Light.woff') format('woff'),
+        url('/css/fonts/subset-OpenSans-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Rubik';
-    src: url('/css/fonts/Rubik/Rubik-Bold.eot');
-    src: url('/css/fonts/Rubik/Rubik-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/css/fonts/Rubik/Rubik-Bold.woff2') format('woff2'),
-        url('/css/fonts/Rubik/Rubik-Bold.woff') format('woff'),
-        url('/css/fonts/Rubik/Rubik-Bold.ttf') format('truetype'),
-        url('/css/fonts/Rubik/Rubik-Bold.svg#Rubik-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Commissioner';
-    src: url('/css/fonts/Commissioner/Commissioner-Bold.eot');
-    src: url('/css/fonts/Commissioner/Commissioner-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/css/fonts/Commissioner/Commissioner-Bold.woff2') format('woff2'),
-        url('/css/fonts/Commissioner/Commissioner-Bold.woff') format('woff'),
-        url('/css/fonts/Commissioner/Commissioner-Bold.ttf') format('truetype'),
-        url('/css/fonts/Commissioner/Commissioner-Bold.svg#Commissioner-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-*/

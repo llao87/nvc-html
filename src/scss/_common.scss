@@ -1,24 +1,50 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    box-sizing: border-box;
     position: relative;
     outline: none;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
     overflow-x: hidden;
 }
+
 body {
     font-size: 10px;
 }
+
 .container {
     width: 100%;
-    max-width: 1780px;
+    max-width: 1786px;
     margin: 0 auto;
     // background: red;
+
+    .section-title {
+        margin-bottom: 4em;
+
+        h1 {
+            display: inline-block;
+            font-size: 3.3em;
+            font-weight: 500;
+            line-height: 1;
+            margin: 0;
+
+            &::after {
+                position: absolute;
+                content: "";
+                display: block;
+                width: 100%;
+                height: 0.115em;
+                background: $mainAccent;
+                bottom: 0;
+                z-index: -1;
+            }
+        }
+    }
 }
+
 a {
     color: $text;
     transition: all 0.25s linear;
@@ -27,7 +53,38 @@ a {
     &:hover {
         color: $mainAccent;
     }
+
     &:active {
         color: $mainAccent;
+    }
+}
+
+.column {
+    width: 50%;
+    height: 100%;
+}
+
+.column-left {}
+
+.column-right {}
+
+.btn {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    padding: 0.6em 1.8em;
+    border-radius: 10em;
+    cursor: pointer;
+    letter-spacing: 0.025em;
+    transition: all 0.3s linear;
+}
+
+.btn-white {
+    border: 0.1em solid $mainAccent;
+    color: $mainAccent;
+    background: $main;
+
+    &:hover {
+        color: $main;
+        background: $mainAccent;
     }
 }

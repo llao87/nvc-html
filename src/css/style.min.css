@@ -1119,67 +1119,54 @@ button.swiper-pagination-bullet {
   overflow: hidden;
 }
 
-/*
 @font-face {
-    font-family: 'Rubik';
-    src: url('/css/fonts/Rubik/Rubik-Medium.eot');
-    src: url('/css/fonts/Rubik/Rubik-Medium.eot?#iefix') format('embedded-opentype'),
-        url('/css/fonts/Rubik/Rubik-Medium.woff2') format('woff2'),
-        url('/css/fonts/Rubik/Rubik-Medium.woff') format('woff'),
-        url('/css/fonts/Rubik/Rubik-Medium.ttf') format('truetype'),
-        url('/css/fonts/Rubik/Rubik-Medium.svg#Rubik-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Open Sans";
+  src: url("/css/fonts/subset-OpenSans-SemiBold.eot");
+  src: url("/css/fonts/subset-OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("/css/fonts/subset-OpenSans-SemiBold.woff2") format("woff2"), url("/css/fonts/subset-OpenSans-SemiBold.woff") format("woff"), url("/css/fonts/subset-OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
-
 @font-face {
-    font-family: 'Rubik';
-    src: url('/css/fonts/Rubik/Rubik-Light.eot');
-    src: url('/css/fonts/Rubik/Rubik-Light.eot?#iefix') format('embedded-opentype'),
-        url('/css/fonts/Rubik/Rubik-Light.woff2') format('woff2'),
-        url('/css/fonts/Rubik/Rubik-Light.woff') format('woff'),
-        url('/css/fonts/Rubik/Rubik-Light.ttf') format('truetype'),
-        url('/css/fonts/Rubik/Rubik-Light.svg#Rubik-Light') format('svg');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Open Sans";
+  src: url("/css/fonts/subset-OpenSans-Bold.eot");
+  src: url("/css/fonts/subset-OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("/css/fonts/subset-OpenSans-Bold.woff2") format("woff2"), url("/css/fonts/subset-OpenSans-Bold.woff") format("woff"), url("/css/fonts/subset-OpenSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
-
 @font-face {
-    font-family: 'Rubik';
-    src: url('/css/fonts/Rubik/Rubik-Bold.eot');
-    src: url('/css/fonts/Rubik/Rubik-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/css/fonts/Rubik/Rubik-Bold.woff2') format('woff2'),
-        url('/css/fonts/Rubik/Rubik-Bold.woff') format('woff'),
-        url('/css/fonts/Rubik/Rubik-Bold.ttf') format('truetype'),
-        url('/css/fonts/Rubik/Rubik-Bold.svg#Rubik-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Open Sans";
+  src: url("/css/fonts/subset-OpenSans-Regular.eot");
+  src: url("/css/fonts/subset-OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("/css/fonts/subset-OpenSans-Regular.woff2") format("woff2"), url("/css/fonts/subset-OpenSans-Regular.woff") format("woff"), url("/css/fonts/subset-OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-
 @font-face {
-    font-family: 'Commissioner';
-    src: url('/css/fonts/Commissioner/Commissioner-Bold.eot');
-    src: url('/css/fonts/Commissioner/Commissioner-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/css/fonts/Commissioner/Commissioner-Bold.woff2') format('woff2'),
-        url('/css/fonts/Commissioner/Commissioner-Bold.woff') format('woff'),
-        url('/css/fonts/Commissioner/Commissioner-Bold.ttf') format('truetype'),
-        url('/css/fonts/Commissioner/Commissioner-Bold.svg#Commissioner-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Open Sans";
+  src: url("/css/fonts/subset-OpenSans-Medium.eot");
+  src: url("/css/fonts/subset-OpenSans-Medium.eot?#iefix") format("embedded-opentype"), url("/css/fonts/subset-OpenSans-Medium.woff2") format("woff2"), url("/css/fonts/subset-OpenSans-Medium.woff") format("woff"), url("/css/fonts/subset-OpenSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
-*/
+@font-face {
+  font-family: "Open Sans";
+  src: url("/css/fonts/subset-OpenSans-Light.eot");
+  src: url("/css/fonts/subset-OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("/css/fonts/subset-OpenSans-Light.woff2") format("woff2"), url("/css/fonts/subset-OpenSans-Light.woff") format("woff"), url("/css/fonts/subset-OpenSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
 * {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   position: relative;
   outline: none;
+  font-family: "Open Sans", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -1192,8 +1179,28 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1780px;
+  max-width: 1786px;
   margin: 0 auto;
+}
+.container .section-title {
+  margin-bottom: 4em;
+}
+.container .section-title h1 {
+  display: inline-block;
+  font-size: 3.3em;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0;
+}
+.container .section-title h1::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.115em;
+  background: #00b1f4;
+  bottom: 0;
+  z-index: -1;
 }
 
 a {
@@ -1208,6 +1215,33 @@ a:hover {
 }
 a:active {
   color: #00b1f4;
+}
+
+.column {
+  width: 50%;
+  height: 100%;
+}
+
+.btn {
+  font-size: 1.4em;
+  text-transform: uppercase;
+  padding: 0.6em 1.8em;
+  border-radius: 10em;
+  cursor: pointer;
+  letter-spacing: 0.025em;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.btn-white {
+  border: 0.1em solid #00b1f4;
+  color: #00b1f4;
+  background: #ffffff;
+}
+.btn-white:hover {
+  color: #ffffff;
+  background: #00b1f4;
 }
 
 header .top {
@@ -1279,7 +1313,7 @@ header .top .container .column.left .support {
   padding: 0.55em 0;
 }
 header .top .container .column.right {
-  width: 15.5em;
+  width: 12.5em;
 }
 header .top .container .column.right .personal {
   border-left: 1px solid #98b9f6;
@@ -1413,4 +1447,372 @@ header .bottom .container .right .search .icon {
   height: 100%;
   max-width: 100%;
   max-height: 100%;
+}
+/* SLIDER */
+.main-slider {
+  height: 70.5em;
+  background: red;
+}
+/* SERNICES */
+.main-services {
+  margin: 6.9em 0;
+}
+.main-services .container .tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 5em;
+}
+.main-services .container .tags .tag {
+  font-size: 1.6em;
+  padding: 0.1em 0.5em;
+  margin-right: 1.8em;
+  letter-spacing: 0.06em;
+}
+.main-services .container .tags .active {
+  background: #ddc410;
+}
+.main-services .container .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.main-services .container .services .service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 15.5%;
+  border: 0.1em solid #e5e5e5;
+  height: 25.5em;
+  margin-bottom: 2.2em;
+  overflow: hidden;
+}
+.main-services .container .services .service .column-left .image {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1em 1em 0 0;
+}
+.main-services .container .services .service .column-left .image .service-image {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.main-services .container .services .service-x1 {
+  width: 15.5%;
+}
+.main-services .container .services .service-x1 .column-left {
+  display: none;
+}
+.main-services .container .services .service-x1 .column-right {
+  width: 100%;
+  padding: 3em 2em 0 2em;
+}
+.main-services .container .services .service-x1 .column-right .title {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 0.025em;
+  margin-bottom: 0.3em;
+}
+.main-services .container .services .service-x1 .column-right .description {
+  font-size: 1.4em;
+  line-height: 1.5;
+}
+.main-services .container .services .service-x1 .column-right .btn {
+  position: absolute;
+  bottom: 1.6em;
+  font-size: 1.4em;
+}
+.main-services .container .services .service-x2 {
+  width: 32.5%;
+  padding: 2.6em 0 2.2em 0;
+}
+.main-services .container .services .service-x2 .column-right {
+  padding: 0 2em;
+}
+.main-services .container .services .service-x2 .column-right .title {
+  font-size: 2em;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 0.025em;
+  margin-bottom: 0.3em;
+}
+.main-services .container .services .service-x2 .column-right .description {
+  font-size: 1.4em;
+  line-height: 1.6;
+}
+.main-services .container .services .service-x2 .column-right .btn {
+  position: absolute;
+  bottom: 0.1em;
+  font-size: 1.4em;
+}
+.main-services .container .services .service-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  color: #ffffff;
+  padding: 3em 3.5em 2.2em;
+}
+.main-services .container .services .service-background .column-left {
+  display: none;
+}
+.main-services .container .services .service-background .column-right {
+  width: 100%;
+  padding: 0;
+}
+.main-services .container .services .service-background .column-right .title {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 0.7em;
+  font-style: normal;
+  letter-spacing: normal;
+}
+.main-services .container .services .service-background .column-right .description {
+  font-size: 1.8em;
+  line-height: 1.5;
+}
+.main-services .container .services .service-background .column-right .btn {
+  position: absolute;
+  bottom: 0.1em;
+  font-size: 1.4em;
+}
+.main-services .container .services .service-all {
+  background-color: #00b1f4;
+  color: #ffffff;
+}
+.main-services .container .services .service-all .column {
+  width: 100%;
+}
+.main-services .container .services .service-all .column .title {
+  font-size: 3.2em;
+  font-style: italic;
+  width: 100%;
+  text-align: center;
+  padding: 2.4em 0 0 0;
+}
+.main-services .container .services .service-all .column .btn-all {
+  position: absolute;
+  display: block;
+  width: 2.4em;
+  height: 2.4em;
+  font-size: 1.4em;
+  background-image: url(/img/icon-next.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 50%;
+  bottom: 1.6em;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+/* ABOUT */
+.about {
+  margin: 6.9em 0;
+}
+.about .container {
+  max-width: 1178px;
+}
+.about .container .section-title {
+  padding: 4em 0;
+  margin: 0;
+}
+.about .container .advantages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.about .container .advantages .advantage {
+  width: 49%;
+  padding: 0.5em 2em 0.5em 0;
+  margin-bottom: 5.5em;
+}
+.about .container .advantages .advantage .icon {
+  margin-bottom: 1.8em;
+  padding-left: 4.2em;
+}
+.about .container .advantages .advantage .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.about .container .advantages .advantage .description .column-left {
+  width: 6em;
+  padding-left: 0.5em;
+}
+.about .container .advantages .advantage .description .column-left .number {
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 500;
+  color: #999;
+}
+.about .container .advantages .advantage .description .column-left .number::before {
+  display: block;
+  position: absolute;
+  content: "";
+  left: -0.3em;
+  top: 0.2em;
+  height: 5.5em;
+  width: 0.1em;
+  background-color: #999;
+}
+.about .container .advantages .advantage .description .column-right {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+.about .container .advantages .advantage .description .column-right .title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+.about .container .advantages .advantage .description .column-right .announce {
+  font-size: 1.6em;
+  line-height: 1.5;
+}
+
+/* PROJECTS */
+.our-experience {
+  margin: 6.9em 0;
+}
+.our-experience .container .glossary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  list-style-type: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 65em;
+  margin-bottom: 2.8em;
+}
+.our-experience .container .glossary .item {
+  width: 30%;
+  font-size: 1.6em;
+  line-height: 1;
+  margin-bottom: 1em;
+  color: #00b1f4;
+}
+.our-experience .container .glossary .item .name {
+  color: #00b1f4;
+  border-bottom: 0.1em dashed transparent;
+}
+.our-experience .container .glossary .item .name:hover {
+  color: #007faf;
+  border-bottom: 0.1em dashed #007faf;
+}
+.our-experience .container .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.our-experience .container .projects .project {
+  margin-bottom: 2.2em;
+  width: 24%;
+  height: 40em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.our-experience .container .projects .project .project-link {
+  background-image: url(img/pic-sber.jpg);
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.our-experience .container .projects .project .project-link .name {
+  display: none;
+}
+.our-experience .container .show-more {
+  max-width: 52em;
+  text-align: center;
+  background: #daf5ff;
+  margin: 0 auto;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  padding: 0.9em 8em;
+  width: 100%;
+  color: #00b1f4;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  border: 0.1em solid #daf5ff;
+}
+.our-experience .container .show-more:hover {
+  border: 0.1em solid #00b1f4;
+}
+
+/* BLOG */
+.blog {
+  margin: 6.9em 0;
 }

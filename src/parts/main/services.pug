@@ -1,18 +1,19 @@
 section.main-services
 	.container
-		.section-title Услуги
+		.section-title 
+			h1 Услуги
 		.tags
-			.tag Популярные
-			.tag Бизнесу
-			.tag Банкам
-			.tag Частным клиетам
-			.tag Решение и сервисы
+			a.tag.active(href="#") Популярные
+			a.tag(href="#") Бизнесу
+			a.tag(href="#") Банкам
+			a.tag(href="#") Частным клиетам
+			a.tag(href="#") Решение и сервисы
 
 		.services
-			.service.service-x2.service-background
+			.service.service-x2.service-background(style="background-image:url(/img/first-service-bg.jpg);")
 				.column.column-left
 					.image
-						img.service-image(src="#" alt="Изображение сервиса")
+						img.service-image(src="/img/service-picture.png" alt="Изображение сервиса")
 				.column.column-right
 					.title Комплексная автоматизация офисов
 					.description Обеспечение бесперебойной работы всей ИТ-инфраструктуры, круглосуточная поддержка
@@ -21,7 +22,7 @@ section.main-services
 			.service.service-x2
 				.column.column-left
 					.image
-						img.service-image(src="#" alt="Изображение сервиса")
+						img.service-image(src="/img/service-picture.png" alt="Изображение сервиса")
 				.column.column-right
 					.title Умный телефон
 					.description Монтаж и обслуживание систем видеонаблюдения и контроля доступа
@@ -30,7 +31,7 @@ section.main-services
 			.service.service-x2
 				.column.column-left
 					.image
-						img.service-image(src="#" alt="Изображение сервиса")
+						img.service-image(src="/img/service-picture.png" alt="Изображение сервиса")
 				.column.column-right
 					.title Сервер для коллективной работы
 					.description Монтаж и обслуживание систем видеонаблюдения и контроля доступа
@@ -39,7 +40,7 @@ section.main-services
 			.service.service-x1
 				.column.column-left
 					.image
-						img.service-image(src="#" alt="Изображение сервиса")
+						img.service-image(src="/img/service-picture.png" alt="Изображение сервиса")
 				.column.column-right
 					.title ИТ менеджмент
 					.description Монтаж и обслуживание систем видеонаблюдения и контроля доступа
@@ -48,7 +49,7 @@ section.main-services
 			.service.service-x1
 				.column.column-left
 					.image
-						img.service-image(src="#" alt="Изображение сервиса")
+						img.service-image(src="/img/service-picture.png" alt="Изображение сервиса")
 				.column.column-right
 					.title Разработка программного обеспечения
 					.description Монтаж и обслуживание систем видеонаблюдения и контроля доступа
@@ -57,7 +58,7 @@ section.main-services
 			.service.service-x1
 				.column.column-left
 					.image
-						img.service-image(src="#" alt="Изображение сервиса")
+						img.service-image(src="/img/service-picture.png" alt="Изображение сервиса")
 				.column.column-right
 					.title Аудит инженерных систем
 					.description Монтаж и обслуживание систем видеонаблюдения и контроля доступа
@@ -66,7 +67,7 @@ section.main-services
 			.service.service-x1
 				.column.column-left
 					.image
-						img.service-image(src="#" alt="Изображение сервиса")
+						img.service-image(src="/img/service-picture.png" alt="Изображение сервиса")
 				.column.column-right
 					.title Проектирование сетей
 					.description Монтаж и обслуживание систем видеонаблюдения и контроля доступа
@@ -75,7 +76,7 @@ section.main-services
 			.service.service-x1
 				.column.column-left
 					.image
-						img.service-image(src="#" alt="Изображение сервиса")
+						img.service-image(src="/img/service-picture.png" alt="Изображение сервиса")
 				.column.column-right
 					.title Офис в кармане
 					.description Монтаж и обслуживание систем видеонаблюдения и контроля доступа
@@ -84,4 +85,4 @@ section.main-services
 			.service.service-x1.service-all
 				.column
 					.title Все услуги
-					a.btn.btn-white(href="#") Подробнее
+					a.btn-all(href="#")
