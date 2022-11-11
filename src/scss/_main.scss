@@ -368,11 +368,62 @@
                 align-items: center;
                 justify-content: center;
 
-                .description {}
+                &:first-of-type {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                }
+
+                .description {
+                    font-size: 2.8em;
+                    font-weight: 300;
+                    font-style: italic;
+                    width: 90%;
+                    letter-spacing: 0.005em;
+                    margin-bottom: 2.4em;
+                    line-height: 1.4;
+                }
 
                 .link {}
 
-                .link-all {}
+                .link-all {
+                    font-size: 1.6em;
+                    font-weight: 500;
+                    letter-spacing: 0.05em;
+                    color: #00b1f4;
+                    margin-bottom: 2.8em;
+
+                    &::after {
+                        position: absolute;
+                        display: block;
+                        width: 1.8em;
+                        height: 1.8em;
+                        content: "";
+                        background-image: url(/img/icon-next-accent.svg);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: contain;
+                        -webkit-transition: inherit;
+                        -o-transition: inherit;
+                        transition: inherit;
+                        top: 50%;
+                        right: 0;
+                        transform: translate(135%, -50%);
+
+                        // &:hover {
+                        //     background-image: url(/img/icon-next-darkaccent.svg);
+                        // }
+                    }
+
+                    &:hover {
+                        color: $darkAccent;
+
+                        &::after {
+                            background-image: url(/img/icon-next-darkaccent.svg);
+                        }
+                    }
+                }
 
                 .project-link {
                     background-image: url(img/pic-sber.jpg);
@@ -404,7 +455,7 @@
             cursor: pointer;
             transition: all 0.3s linear;
             border: 0.1em solid $lightAccent;
-            
+
             &:hover {
                 border: 0.1em solid $mainAccent;
             }
@@ -414,7 +465,8 @@
 
 /* BLOG */
 .blog {
-    margin: 6.9em 0;
+    margin: 12.8em 0 6.8em;
+
     .container {
         .section-title {}
 
