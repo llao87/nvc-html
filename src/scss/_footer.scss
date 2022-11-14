@@ -1,0 +1,204 @@
+footer {
+    background-color: $mainAccent;
+    padding: 9.6em 0 5.5em 0;
+
+    .container {
+        .section-title {
+            font-size: 4.2em;
+            font-weight: 900;
+            color: $white;
+            width: 100%;
+            text-align: center;
+            letter-spacing: 0.002em;
+            margin-bottom: 1.46em;
+        }
+
+        .callback-btn {
+            margin: 0 auto;
+            display: inline-block;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1.8em;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            color: $mainAccent;
+            background-color: $white;
+            padding: 0.6em 2.4em;
+            border-radius: 10em;
+            margin-bottom: 4.6em;
+            cursor: pointer;
+            transition: all 0.3s linear;
+            border: 0.15em solid $white;
+
+            &:hover {
+                background-color: transparent;
+                color: $white;
+            }
+        }
+
+        .columns {
+            max-width: 130em;
+            margin: 0 auto;
+            display: flex;
+            align-items: stretch;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .column {
+                width: 33.3333%;
+                padding: 0 2em 0 6em;
+
+                .title {
+                    display: inline-block;
+                    color: $white;
+                    font-size: 2em;
+                    letter-spacing: 0.04em;
+                    margin-bottom: 0.8em;
+                }
+
+                .links-list {
+                    list-style-type: none;
+
+                    .link-wrapper {
+                        margin-bottom: 1.4em;
+
+                        .link {
+                            display: inline-block;
+                            color: $white;
+                            font-size: 1.4em;
+                            padding: 0.1em 0;
+                            letter-spacing: 0.04em;
+                            line-height: 1;
+                            border-bottom: 0.1em dashed transparent;
+                            transition: all 0.3s linear;
+
+                            &:hover {
+                                border-color: $white;
+                            }
+                        }
+                    }
+                }
+
+                .links-list.twin {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+
+                    .link-wrapper {
+                        width: 50%;
+                        // padding: 0 0 0 2.4em;
+                        padding: 0;
+                        margin-bottom: 0.8em;
+
+                        .link {}
+                    }
+                }
+
+                .company-info {
+                    display: flex;
+                    flex-direction: column;
+
+                    .phone {
+                        font-size: 1.9em;
+                        font-weight: 500;
+                        color: $white;
+                        margin-bottom: 0.2em;
+                    }
+
+                    .email {
+                        font-size: 1.4em;
+                        color: $white;
+                        margin-bottom: 1.4em;
+                    }
+
+                    .geo {
+                        font-size: 1.5em;
+                        max-width: 50%;
+                        line-height: 1.6;
+                        color: $white;
+                    }
+                }
+
+                .socials {
+                    // padding: 0 0 0 3.4em;
+
+                    .link {
+                        img {
+                            width: 2.4em;
+                            height: 2.4em;
+                        }
+
+                        display: inline-block;
+                        width: 4em;
+                        height: 4em;
+                        background-repeat: no-repeat;
+                        background-position: 50%;
+                        background-size: 60%;
+                        border: 0.2em solid #fff;
+                        border-radius: 10em;
+                        margin: 0 1.4em 0 0;
+                        padding: 0.7em 0.6em;
+
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+
+                .link-all {
+                    display: inline-block;
+                    font-size: 1.4em;
+                    padding: 0 0 0 2.4em;
+                    text-transform: uppercase;
+                    letter-spacing: 0.03em;
+                    color: $white;
+                    margin: 1em 0 4.1em 0;
+                    cursor: pointer;
+
+                    &::after {
+                        display: block;
+                        position: absolute;
+                        content: '';
+                        width: 2em;
+                        height: 2em;
+                        background-image: url(/img/icon-plus.svg);
+                        background-position: center;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        cursor: pointer;
+                        transition: all 0.3s linear;
+                        top: 50%;
+                        left: -0.2em;
+                        transform: translateY(-50%);
+                    }
+
+                    &:hover {
+                        &::after {
+                            transform: translateY(-50%) scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+
+        .columns.links {
+            &::after {
+                display: block;
+                position: absolute;
+                content: "";
+                width: 118em;
+                height: 0.1em;
+                bottom: -0.3em;
+                left: 50%;
+                transform: translateX(-50%);
+                background-color: $white
+            }
+        }
+
+        .columns.info {
+            padding: 3.5em 0 0 0;
+        }
+    }
+}
