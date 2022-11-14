@@ -1510,7 +1510,7 @@ header .bottom .container .right .search .icon-search:hover {
   letter-spacing: 0.06em;
 }
 .main-services .container .tags .active {
-  background: #ddc410;
+  background: #fff088;
 }
 .main-services .container .services {
   display: -webkit-box;
@@ -1914,7 +1914,7 @@ header .bottom .container .right .search .icon-search:hover {
 }
 .blog .container .posts .swiper-slide .post .date {
   font-size: 1.2em;
-  background-color: #ddc410;
+  background-color: #fff088;
   display: inline-block;
   padding: 0.2em 0.8em;
   margin-bottom: 0.5em;
