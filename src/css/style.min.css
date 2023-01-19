@@ -1960,6 +1960,43 @@ header .bottom .container .right .search .icon-search:hover {
   color: #fff;
 }
 
+.services-page {
+  padding: 5em 0;
+}
+.services-page .container .section-title {
+  font-size: 6.6em;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  margin: 0.075em 0 0.8em 0;
+}
+.services-page .container .section-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.services-page .container .section-banner .banner-wrap {
+  -webkit-box-flex: unset;
+      -ms-flex: unset;
+          flex: unset;
+  width: 100%;
+  min-height: 37.5em;
+}
+.services-page .container .section-banner .links-wrap {
+  width: 65.4em;
+  -webkit-box-flex: unset;
+      -ms-flex: unset;
+          flex: unset;
+}
+.services.services-page {
+  margin: 3.4em 0 7em 0;
+}
+
 footer {
   background-color: #00b1f4;
   padding: 9.6em 0 5.5em 0;
